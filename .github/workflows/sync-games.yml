@@ -5,11 +5,16 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Clone SpaceShoot
         run: |
@@ -38,4 +43,4 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "✨ Sync game projects" || echo "No changes"
-          git push
+          git push origin main
