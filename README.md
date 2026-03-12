@@ -6,8 +6,7 @@
 
 ## English Version
 
-# 🎮 Game Portfolio
-
+# 🎮 Game Portfolio: link video demo: https://drive.google.com/drive/folders/1bMf4uCSmB8xt2Yc2KOtvnOjHc_8W-UY8?usp=drive_link
 A collection of indie game projects showcasing diverse gameplay mechanics, original artwork, and game design principles. Each game demonstrates different technical challenges and creative solutions in game development.
 
 ---
@@ -293,11 +292,11 @@ This portfolio demonstrates progression across multiple dimensions:
 
 ## 🔧 Technologies Used
 
-- **Game Engine:** [Your Engine Here - Unity/Godot/Custom]
-- **Graphics:** [2D/3D Graphics Framework]
-- **Audio:** [Audio Engine/Library]
-- **Language:** [C#/GDScript/C++]
-- **Art Tools:** [Aseprite/Photoshop/Krita for sprites, Blender for 3D assets]
+- **Game Engine:** Unity
+- **Graphics:** 2D/3D Graphics Framework
+- **Audio:** Audio Engine/Library
+- **Language:** C#
+- **Art Tools:** Aseprite/Photoshop/Krita for sprites, Blender for 3D assets
 
 ---
 
@@ -336,8 +335,7 @@ Special thanks to:
 
 ## Phiên Bản Tiếng Việt
 
-# 🎮 Danh Sách Game Portfolio
-
+# 🎮 Danh Sách Game Portfolio: link video demo: https://drive.google.com/drive/folders/1bMf4uCSmB8xt2Yc2KOtvnOjHc_8W-UY8?usp=drive_link
 Một bộ sưu tập các dự án game indie thể hiện các cơ chế gameplay đa dạng, tác phẩm nghệ thuật gốc và các nguyên lý thiết kế game. Mỗi game minh họa những thách thức kỹ thuật khác nhau và các giải pháp sáng tạo trong phát triển game.
 
 ---
