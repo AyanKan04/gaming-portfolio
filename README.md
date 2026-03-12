@@ -623,11 +623,11 @@ Portfolio này thể hiện tiến bộ trên nhiều chiều:
 
 ## 🔧 Công Nghệ Sử Dụng
 
-- **Game Engine:** [Your Engine Here - Unity/Godot/Custom]
-- **Đồ Họa:** [Khung Đồ Họa 2D/3D]
-- **Âm Thanh:** [Engine/Thư Viện Âm Thanh]
-- **Ngôn Ngữ:** [C#/GDScript/C++]
-- **Công Cụ Nghệ Thuật:** [Aseprite/Photoshop/Krita cho sprite, Blender cho tài sản 3D]
+- **Game Engine:** unity
+- **Đồ Họa:** Khung Đồ Họa 2D/3D
+- **Âm Thanh:** Engine/Thư Viện Âm Thanh
+- **Ngôn Ngữ:** C#
+- **Công Cụ Nghệ Thuật:** Aseprite/Photoshop/Krita cho sprite
 
 ---
 
