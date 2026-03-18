@@ -1,5 +1,5 @@
 # 🎮 Game Portfolio | Danh Sách Game Portfolio
-
+# 🎮 LINK exe: https://drive.google.com/drive/folders/1Voh-rHHhl6zAZUPUWVB4gHdtFlrZYuuv?usp=drive_link
 > [English](#english-version) | [Tiếng Việt](#phiên-bản-tiếng-việt)
 
 ---
