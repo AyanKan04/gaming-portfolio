@@ -37,6 +37,13 @@ jobs:
           cp -r temp_okla/* project-3-okla/
           rm -rf temp_okla
 
+       - name: Clone Banana-Cat
+        run: |
+          git clone https://github.com/AyanKan04/OKLA.git temp_banana-cat
+          mkdir -p project-4-bananacat
+          cp -r temp_banana-cat/* project-4-bananacat/
+          rm -rf temp_banana-cat
+          
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
