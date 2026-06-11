@@ -107,4 +107,4 @@ Assets
 ## ▶ Demo & Tài nguyên
 
 - **Thư mục Project (GDD, Video Demo, Unity Package):** [Google Drive Link](https://drive.google.com/drive/folders/1HjRDZOI5EB1W7MZ07WncXNOTMR3oRXw2)
-- **Repo GitHub:** [Banana-Cat (Project-4)](https://github.com/AyanKan04/gaming-portfolio/tree/main/project-4-bananacat)
+- **Repo GitHub:** [Banana-Cat](https://github.com/AyanKan04/Banana-Cat)
