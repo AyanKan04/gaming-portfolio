@@ -18,6 +18,7 @@ A collection of indie game projects showcasing diverse gameplay mechanics, origi
   - [Space Shoot](#space-shoot)
   - [Running](#running)
   - [OKLA](#okla)
+  - [Banana Cat (Playable Ad)](#banana-cat-playable-ad)
 - [Technical Highlights](#technical-highlights)
 - [Art & Design](#art--design)
 - [Getting Started](#getting-started)
@@ -27,7 +28,7 @@ A collection of indie game projects showcasing diverse gameplay mechanics, origi
 
 ## 🎯 Overview
 
-This portfolio represents a progression in game development, from foundational mechanics (OKLA) to more complex systems (Running) and refined action gameplay (Space Shoot). Each project emphasizes:
+This portfolio represents a progression in game development, from foundational mechanics (OKLA) to more complex systems (Running), refined action gameplay (Space Shoot), and optimized mobile playable ad experiences (Banana Cat). Each project emphasizes:
 
 - **Original artwork and animations** — hand-drawn by the developer
 - **Polished game feel** — responsive controls, visual feedback, and audio integration
@@ -160,6 +161,27 @@ A foundational casual game designed as an entry point into game development. Pla
 
 ---
 
+### 🍌 Banana Cat (Playable Ad)
+
+**Status:** Prototype | **Platforms:** Mobile / Web
+
+A 30-second playable ad prototype developed as a candidate assessment for Nexon Creative Studio VINA. The game combines the addictive "Grow-up" mechanic with the popular Banana Cat meme to maximize user acquisition conversion.
+
+#### Gameplay Features:
+- **Core Mechanics:** 3D free movement with automatic vacuum suction of nearby items
+- **Progression System (Tiered):** Consume items based on current level; gain EXP to grow larger, increase suction radius, and boost movement speed.
+- **Short Loop:** Specifically designed for a 30-second time limit, ending with a Call-to-Action (CTA).
+- **Juiciness:** Instant visual and audio feedback (Scale Punch effect, score popups) upon item consumption.
+
+#### Technical Highlights:
+- **Data-Driven Architecture:** `ItemManager` uses the Singleton pattern to separate tier data from prefabs for easy balancing and memory efficiency.
+- **Dynamic Camera System:** Camera automatically adjusts offset (height and distance) based on player scale and uses Raycast occlusion to ensure the player is always visible.
+- **Optimized for Ads:** Fast progression scaling (Logarithmic) to ensure an immediate "wow" factor within seconds.
+
+**Repository:** [Banana Cat](./project-4-bananacat/)
+
+---
+
 ## 🎨 Technical Highlights
 
 ### Shared Development Practices
@@ -228,7 +250,7 @@ Every visual element across these games—from character sprites to environment 
 
 ### Prerequisites:
 - **Space Shoot & OKLA:** Game engine with 2D rendering support (e.g., Unity, Godot)
-- **Running:** 3D game engine (e.g., Unity 3D, Unreal Engine)
+- **Running & Banana Cat:** 3D game engine (e.g., Unity 3D, Unreal Engine)
 - Basic knowledge of your chosen platform
 
 ### Installation:
@@ -258,22 +280,27 @@ Each project is structured for easy content expansion:
 
 ```
 gaming-portfolio/
-├── README.md (this file)
+├── README.md (tệp này)
 ├── project-1-spaceshoot/
-│   ├── README.md (game-specific setup)
-│   ├── Source/
+│   ├── README.md (thiết lập dành riêng cho game)
+│   ├── Packages/
 │   ├── Assets/
-│   └── Build/
+│   └── ProjectSetting/
 ├── project-2-running/
-│   ├── README.md (game-specific setup)
-│   ├── Source/
+│   ├── README.md (thiết lập dành riêng cho game)
+│   ├── Packages/
 │   ├── Assets/
-│   └── Build/
-└── project-3-okla/
-    ├── README.md (game-specific setup)
-    ├── Source/
-    ├── Assets/
-    └── Build/
+│   └── ProjectSetting/
+├── project-3-okla/
+│   ├── README.md (thiết lập dành riêng cho game)
+│   ├── Packages/
+│   ├── Assets/
+│   └── ProjectSetting/
+└── project-4-bananacat/
+    ├── README.md (thiết lập dành riêng cho game)
+│   ├── Packages/
+│   ├── Assets/
+│   └── ProjectSetting/
 ```
 
 ---
@@ -282,11 +309,11 @@ gaming-portfolio/
 
 This portfolio demonstrates progression across multiple dimensions:
 
-- **Mechanics Complexity:** From item collection (OKLA) → score-based action (Space Shoot) → physics-based progression (Running)
+- **Mechanics Complexity:** From item collection (OKLA) → score-based action (Space Shoot) → physics-based progression (Running) → optimized, data-driven playable ad architecture (Banana Cat)
 - **Visual Fidelity:** Increasing animation complexity and visual polish
-- **Technical Scope:** Expanding from 2D single-screen gameplay to 3D with procedural systems
-- **User Experience:** Evolution of menus, settings, and accessibility features
-- **Audio Integration:** From basic sound effects to state-aware music systems
+- **Technical Scope:** Expanding from 2D single-screen gameplay to 3D with procedural systems and dynamic camera handling
+- **User Experience:** Evolution of menus, settings, and accessibility features, culminating in high-conversion ad UX
+- **Audio Integration:** From basic sound effects to state-aware music systems and instant gratification audio feedback
 
 ---
 
@@ -347,6 +374,7 @@ Một bộ sưu tập các dự án game indie thể hiện các cơ chế gamep
   - [Space Shoot](#space-shoot-1)
   - [Running](#running-1)
   - [OKLA](#okla-1)
+  - [Banana Cat (Playable Ad)](#banana-cat-playable-ad-1)
 - [Điểm Nổi Bật Kỹ Thuật](#điểm-nổi-bật-kỹ-thuật)
 - [Nghệ Thuật & Thiết Kế](#nghệ-thuật--thiết-kế)
 - [Bắt Đầu](#bắt-đầu)
@@ -356,7 +384,7 @@ Một bộ sưu tập các dự án game indie thể hiện các cơ chế gamep
 
 ## 🎯 Tổng Quan
 
-Portfolio này thể hiện sự tiến bộ trong phát triển game, từ các cơ chế nền tảng (OKLA) đến các hệ thống phức tạp hơn (Running) và gameplay hành động được tinh chỉnh (Space Shoot). Mỗi dự án nhấn mạnh:
+Portfolio này thể hiện sự tiến bộ trong phát triển game, từ các cơ chế nền tảng (OKLA) đến các hệ thống phức tạp hơn (Running), gameplay hành động được tinh chỉnh (Space Shoot), và trải nghiệm Playable Ad tối ưu trên di động (Banana Cat). Mỗi dự án nhấn mạnh:
 
 - **Tác phẩm nghệ thuật và hoạt ảnh gốc** — được vẽ tay bởi nhà phát triển
 - **Cảm giác game được đánh bóng** — điều khiển phản hồi, thị giác và tích hợp âm thanh
@@ -489,6 +517,27 @@ Một trò chơi casual nền tảng được thiết kế như một điểm v�
 
 ---
 
+### 🍌 Banana Cat (Playable Ad)
+
+**Trạng Thái:** Prototype | **Nền Tảng:** Mobile / Web
+
+Một bản mẫu Playable Ad dài 30 giây được phát triển như một bài tập đánh giá năng lực ứng viên cho Nexon Creative Studio VINA. Game kết hợp cơ chế "Grow-up" gây nghiện với meme Banana Cat nổi tiếng nhằm tối đa hóa tỷ lệ chuyển đổi tải game.
+
+#### Các Tính Năng Gameplay:
+- **Cơ Chế Lõi:** Di chuyển tự do trong không gian 3D và tự động hút (vacuum) các vật thể xung quanh.
+- **Hệ Thống Tiến Độ (Phân Cấp):** Chỉ "ăn" được vật thể vừa với cấp độ hiện tại; tích lũy EXP để to lớn hơn, tăng tầm hút và tốc độ di chuyển.
+- **Vòng Lặp Ngắn:** Thiết kế tối ưu cho thời lượng 30 giây, kết thúc bằng màn hình Call-to-Action (CTA).
+- **Trải Nghiệm Thỏa Mãn (Juiciness):** Hiệu ứng hình ảnh và âm thanh tức thì (giật Scale Punch, nhảy điểm) ngay khi ăn vật thể.
+
+#### Điểm Nổi Bật Kỹ Thuật:
+- **Kiến Trúc Điều Khiển Bằng Dữ Liệu:** Sử dụng Singleton Pattern cho `ItemManager` tách biệt dữ liệu phân cấp khỏi prefab, giúp dễ cân bằng và tối ưu bộ nhớ.
+- **Hệ Thống Camera Động:** Camera tự động tính toán bù trừ độ cao và khoảng cách lùi theo độ lớn của nhân vật; áp dụng Raycast làm mờ vật cản (occlusion) để nhân vật luôn hiển thị rõ ràng.
+- **Tối Ưu Cho Quảng Cáo:** Tốc độ tiến hóa nhanh chóng (dùng hàm Logarit) tạo hiệu ứng bùng nổ (wow factor) tức thì trong vài giây đầu.
+
+**Kho Lưu Trữ:** [Banana Cat](./project-4-bananacat/)
+
+---
+
 ## 🎨 Điểm Nổi Bật Kỹ Thuật
 
 ### Các Thực Hành Phát Triển Chung
@@ -557,7 +606,7 @@ Mỗi yếu tố hình ảnh trên các game này—từ sprite ký tự đến 
 
 ### Điều Kiện Tiên Quyết:
 - **Space Shoot & OKLA:** Game engine với hỗ trợ hiển thị 2D (ví dụ: Unity, Godot)
-- **Running:** Game engine 3D (ví dụ: Unity 3D, Unreal Engine)
+- **Running & Banana Cat:** Game engine 3D (ví dụ: Unity 3D, Unreal Engine)
 - Kiến thức cơ bản về nền tảng đã chọn
 
 ### Cài Đặt:
@@ -590,19 +639,24 @@ gaming-portfolio/
 ├── README.md (tệp này)
 ├── project-1-spaceshoot/
 │   ├── README.md (thiết lập dành riêng cho game)
-│   ├── Source/
+│   ├── Packages/
 │   ├── Assets/
-│   └── Build/
+│   └── ProjectSetting/
 ├── project-2-running/
 │   ├── README.md (thiết lập dành riêng cho game)
-│   ├── Source/
+│   ├── Packages/
 │   ├── Assets/
-│   └── Build/
-└── project-3-okla/
+│   └── ProjectSetting/
+├── project-3-okla/
+│   ├── README.md (thiết lập dành riêng cho game)
+│   ├── Packages/
+│   ├── Assets/
+│   └── ProjectSetting/
+└── project-4-bananacat/
     ├── README.md (thiết lập dành riêng cho game)
-    ├── Source/
-    ├── Assets/
-    └── Build/
+│   ├── Packages/
+│   ├── Assets/
+│   └── ProjectSetting/
 ```
 
 ---
@@ -611,21 +665,21 @@ gaming-portfolio/
 
 Portfolio này thể hiện tiến bộ trên nhiều chiều:
 
-- **Độ Phức Tạp Của Cơ Chế:** Từ bộ sưu tập vật phẩm (OKLA) → hành động dựa trên điểm (Space Shoot) → tiến độ dựa trên vật lý (Running)
+- **Độ Phức Tạp Của Cơ Chế:** Từ bộ sưu tập vật phẩm (OKLA) → hành động dựa trên điểm (Space Shoot) → tiến độ dựa trên vật lý (Running) → kiến trúc dữ liệu tối ưu cho Playable Ad (Banana Cat).
 - **Độ Trung Thực Hình Ảnh:** Tăng độ phức tạp hoạt ảnh và đánh bóng hình ảnh
-- **Phạm Vi Kỹ Thuật:** Mở rộng từ gameplay 2D trên màn hình đơn đến 3D với hệ thống thủ tục
-- **Trải Nghiệm Người Dùng:** Sự tiến hóa của menu, cài đặt và các tính năng khả năng tiếp cận
-- **Tích Hợp Âm Thanh:** Từ hiệu ứng âm thanh cơ bản đến hệ thống nhạc nhận biết trạng thái
+- **Phạm Vi Kỹ Thuật:** Mở rộng từ gameplay 2D trên màn hình đơn đến 3D với hệ thống thủ tục và quản lý camera động.
+- **Trải Nghiệm Người Dùng:** Sự tiến hóa của menu, cài đặt, và đỉnh cao là thiết kế UX để tối đa hóa lượt tải (chuyển đổi) trong Playable Ad.
+- **Tích Hợp Âm Thanh:** Từ hiệu ứng âm thanh cơ bản đến hệ thống nhạc nhận biết trạng thái và phản hồi âm thanh tức thì tạo sự thỏa mãn.
 
 ---
 
 ## 🔧 Công Nghệ Sử Dụng
 
-- **Game Engine:** unity
+- **Game Engine:** Unity
 - **Đồ Họa:** Khung Đồ Họa 2D/3D
 - **Âm Thanh:** Engine/Thư Viện Âm Thanh
 - **Ngôn Ngữ:** C#
-- **Công Cụ Nghệ Thuật:** Aseprite/Photoshop/Krita cho sprite
+- **Công Cụ Nghệ Thuật:** Aseprite/Photoshop/Krita cho sprite, Blender cho tài sản 3D
 
 ---
 
