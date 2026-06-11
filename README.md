@@ -1,5 +1,6 @@
 # 🎮 Game Portfolio | Danh Sách Game Portfolio
 # 🎮 LINK exe: https://drive.google.com/drive/folders/1Voh-rHHhl6zAZUPUWVB4gHdtFlrZYuuv?usp=drive_link
+# 🎮 LINK UA Game BananaCat:https://drive.google.com/drive/folders/1HjRDZOI5EB1W7MZ07WncXNOTMR3oRXw2
 > [English](#english-version) | [Tiếng Việt](#phiên-bản-tiếng-việt)
 
 ---
@@ -7,6 +8,7 @@
 ## English Version
 
 # 🎮 Game Portfolio: link video demo: https://drive.google.com/drive/folders/1bMf4uCSmB8xt2Yc2KOtvnOjHc_8W-UY8?usp=drive_link
+# 🎮 LINK UA Game BananaCat:https://drive.google.com/drive/folders/1HjRDZOI5EB1W7MZ07WncXNOTMR3oRXw2
 A collection of indie game projects showcasing diverse gameplay mechanics, original artwork, and game design principles. Each game demonstrates different technical challenges and creative solutions in game development.
 
 ---
@@ -350,7 +352,7 @@ Special thanks to:
 
 ---
 
-**Last Updated:** March 2026
+**Last Updated:** 16/06/2026
 
 *Made with passion and countless hours of learning 🎮✨*
 
@@ -363,6 +365,7 @@ Special thanks to:
 ## Phiên Bản Tiếng Việt
 
 # 🎮 Danh Sách Game Portfolio: link video demo: https://drive.google.com/drive/folders/1bMf4uCSmB8xt2Yc2KOtvnOjHc_8W-UY8?usp=drive_link
+# 🎮 LINK UA Game BananaCat:https://drive.google.com/drive/folders/1HjRDZOI5EB1W7MZ07WncXNOTMR3oRXw2
 Một bộ sưu tập các dự án game indie thể hiện các cơ chế gameplay đa dạng, tác phẩm nghệ thuật gốc và các nguyên lý thiết kế game. Mỗi game minh họa những thách thức kỹ thuật khác nhau và các giải pháp sáng tạo trong phát triển game.
 
 ---
@@ -706,6 +709,6 @@ Cảm ơn đặc biệt:
 
 ---
 
-**Cập Nhật Lần Cuối:** Tháng 3 năm 2026
+**Cập Nhật Lần Cuối:** 11 Tháng 6 năm 2026
 
 *Được tạo bằng đam mê và vô số giờ học tập 🎮✨*
